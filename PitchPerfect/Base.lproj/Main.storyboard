@@ -100,7 +100,7 @@
                                                     <action selector="playSoundForButton:" destination="Th7-rg-UT9" eventType="touchUpInside" id="A3L-om-d1d"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucM-PB-XEs" userLabel="Fast Button">
+                                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucM-PB-XEs" userLabel="Fast Button">
                                                 <rect key="frame" x="144" y="0.0" width="144" height="145.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="Fast"/>
@@ -113,7 +113,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uER-Sx-CU3" userLabel="Horizontal Stack View">
                                         <rect key="frame" x="0.0" y="145.5" width="288" height="145"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="158-9S-G1b" userLabel="HighPitch Button">
+                                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="158-9S-G1b" userLabel="HighPitch Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="144" height="145"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="HighPitch"/>
@@ -121,7 +121,7 @@
                                                     <action selector="playSoundForButton:" destination="Th7-rg-UT9" eventType="touchUpInside" id="nH1-4Y-90D"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4Y-Rg-5ha" userLabel="LowPitch Button">
+                                            <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4Y-Rg-5ha" userLabel="LowPitch Button">
                                                 <rect key="frame" x="144" y="0.0" width="144" height="145"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="LowPitch"/>
@@ -134,7 +134,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="P81-J8-2Ud" userLabel="Horizontal Stack View">
                                         <rect key="frame" x="0.0" y="290.5" width="288" height="145.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bI-zl-0a7" userLabel="Echo Button">
+                                            <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bI-zl-0a7" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="144" height="145.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="Echo"/>
@@ -142,7 +142,7 @@
                                                     <action selector="playSoundForButton:" destination="Th7-rg-UT9" eventType="touchUpInside" id="Bzb-Ps-BMM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3W-xJ-ve0" userLabel="Reverb Button">
+                                            <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3W-xJ-ve0" userLabel="Reverb Button">
                                                 <rect key="frame" x="144" y="0.0" width="144" height="145.5"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="Reverb"/>
